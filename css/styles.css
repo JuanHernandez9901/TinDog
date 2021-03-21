@@ -1,0 +1,188 @@
+/******************************************************* General Tags *******************************************************/
+body {
+  font-family: "Monserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+em {
+  font-weight: 500;
+}
+
+/******************************************************* Containers *******************************************************/
+
+.container-fluid {
+  padding: 7% 10%;
+}
+/******************************************************** Sections ********************************************************/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+/******************************************************** Headings ********************************************************/
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-text {
+  font-size: 1.5rem;
+}
+
+.card-heading {
+  font-weight: 800;
+}
+
+/****************************************************** Title Section ******************************************************/
+#title .container-fluid {
+  padding: 3% 10% 10%;
+  text-align: left;
+}
+
+#title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+.brand-name {
+  font-family: "Ubuntu", serif;
+}
+
+@media (max-width: 992px) {
+  #title-img {
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
+
+.download-btn {
+  margin: 7% 1.5% 0;
+}
+
+/****************************************************** Features section ******************************************************/
+
+#features {
+  position: relative;
+}
+
+.feature {
+  padding: 0% 3%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-top: 5%;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+/*************************************************** Testimonials Section ***************************************************/
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.75rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial .container-fluid {
+  padding-bottom: 2%;
+}
+
+/****************************************************** Press Section ******************************************************/
+
+#press {
+  background-color: #ef8172;
+}
+
+#press .container-fluid {
+  padding-top: 0;
+}
+
+.press-img {
+  width: 15%;
+  margin: 0 2%;
+}
+
+/**************************************************** Pricing Section  ****************************************************/
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card-pricing {
+  font-weight: 900;
+}
+
+/******************************************************* CTA Section *******************************************************/
+
+/********************************************************** Footer *********************************************************/
+
+.footer-icon {
+  padding: 2% 1%;
+  color: #000;
+}
+
+.footer-icon:hover {
+  color: #ef8172;
+}
